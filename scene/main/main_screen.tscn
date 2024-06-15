@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://rdc8tfkc3342"]
+[gd_scene load_steps=2 format=3 uid="uid://rdc8tfkc3342"]
 
-[node name="main_screen" type="Node2D"]
+[ext_resource type="Script" path="res://scene/main/main_screen.gd" id="1_x6hcu"]
+
+[node name="MainScreen" type="Node2D"]
+script = ExtResource("1_x6hcu")
